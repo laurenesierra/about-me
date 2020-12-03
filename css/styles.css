@@ -25,9 +25,11 @@ h1 {
 }
 
 #image3 {
-  width: 1500px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   margin-top: 100px;
+  margin-left: 350px ;
+  margin-bottom: 100px;
 }
 
 h3 {
@@ -41,4 +43,29 @@ ul {
 display: block;
 list-style: disc outside none;
 padding-left: 10px;
+background-color: rgb(233, 229, 229);
+margin-left: 25px;
+margin-bottom: 20px;
+}
+
+ol{
+  display: inline-block;
+  list-style: decimal;
+  padding-left: 20px;
+  background-color: rgb(233, 229, 229);
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+  }
+
+li {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  font-size: larger;
+}
+
+p{
+  font-size: larger;
+  font-family: cursive;
+
 }
